@@ -1,0 +1,22 @@
+{
+  "name": "node-movie-crud",
+  "version": "1.0.0",
+  "description": "This is my crud project with node js",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-validator": "^6.14.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-movie-crud"
+  },
+  "author": "Primananda Andhika",
+  "license": "ISC"
+}
