@@ -1,5 +1,7 @@
 import express from 'express'
 import expressEjsLayouts from 'express-ejs-layouts'
+import "./utils/database.js"
+import Movie from "./models/movies.js"
 const app = express()
 const PORT = 3000
 
@@ -8,11 +10,13 @@ app.use(express.static('public'))
 app.use(express.urlencoded({extended: true}))
 app.use(expressEjsLayouts)
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
+    const movies = await Movie.find()
     res.render('index', {
         title: "Home",
         cssLink: "css/bootstrap.css",
-        layout: "layouts/main"
+        layout: "layouts/main",
+        movies
     })
 })
 

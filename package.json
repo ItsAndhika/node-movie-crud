@@ -1,22 +1,27 @@
 {
-  "name": "node-movie-crud",
-  "version": "1.0.0",
-  "description": "This is my crud project with node js",
-  "main": "app.js",
-  "type": "module",
-  "devDependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "express-ejs-layouts": "^2.5.1",
-    "express-validator": "^6.14.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "node-movie-crud"
-  },
-  "author": "Primananda Andhika",
-  "license": "ISC"
+	"name": "node-movie-crud",
+	"version": "1.0.0",
+	"description": "This is my crud project with node js",
+	"main": "app.js",
+	"type": "module",
+	"devDependencies": {
+		"connect-flash": "^0.1.1",
+		"cookie-parser": "^1.4.6",
+		"ejs": "^3.1.8",
+		"express": "^4.18.2",
+		"express-ejs-layouts": "^2.5.1",
+		"express-session": "^1.17.3",
+		"express-validator": "^6.14.3",
+		"method-override": "^3.0.0",
+		"mongoose": "^6.9.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "node-movie-crud"
+	},
+	"author": "Primananda Andhika",
+	"license": "ISC"
 }
