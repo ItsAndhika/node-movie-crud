@@ -23,5 +23,8 @@
 		"url": "node-movie-crud"
 	},
 	"author": "Primananda Andhika",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"session": "^0.1.0"
+	}
 }
